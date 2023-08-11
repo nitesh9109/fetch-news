@@ -9,11 +9,7 @@ Welcome to the News Website project! This is a responsive website built using HT
 - [Introduction](#introduction)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [Setup](#setup)
 - [Usage](#usage)
-- [API Integration](#api-integration)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
@@ -22,7 +18,7 @@ This project aims to provide users with an easy-to-use platform to access the la
 ## Features
 
 - Browse news articles from various sources.
-- Search for specific news articles based on keywords.
+- Search for specific news based on keywords.
 - Responsive design for optimal viewing on desktop, tablet, and mobile devices.
 
 ## Technologies Used
@@ -31,4 +27,14 @@ This project aims to provide users with an easy-to-use platform to access the la
 - CSS: Styling the website for an appealing and consistent look.
 - JavaScript: Adding interactivity and fetching data from the Newscatcher API.
 - [Newscatcher API](https://newscatcherapi.com/): The source of news articles for the website.
+
+## Usage
+- Upon opening the website, you'll see a list of the latest news articles.
+- Use the search feature to find articles related to specific keywords.
+- Click on an article to read its full content.
+
+## Features
+
+This project utilizes the Newscatcher API to fetch news articles. The API provides up-to-date news data from various sources. You can learn more about the API by visiting their website: [Newscatcher API](https://www.newscatcherapi.com/).
+Today's top news around the world using the newscatcher.com API
 
