@@ -28,6 +28,11 @@ This project aims to provide users with an easy-to-use platform to access the la
 - JavaScript: Adding interactivity and fetching data from the Newscatcher API.
 - [Newscatcher API](https://newscatcherapi.com/): The source of news articles for the website.
 
+## Screenshots
+
+![](news_screenshot1.png)
+
+
 ## Usage
 - Upon opening the website, you'll see a list of the latest news articles.
 - Use the search feature to find articles related to specific keywords.
@@ -35,6 +40,5 @@ This project aims to provide users with an easy-to-use platform to access the la
 
 ## Features
 
-This project utilizes the Newscatcher API to fetch news articles. The API provides up-to-date news data from various sources. You can learn more about the API by visiting their website: [Newscatcher API](https://www.newscatcherapi.com/).
-Today's top news around the world using the newscatcher.com API
+This project utilizes the Newscatcher API to fetch news articles. The API provides up-to-date news data from various sources. You can learn more about the API by visiting their website: [Newscatcher API](https://www.newscatcherapi.com/), top news around the world using the newscatcher.com API
 
