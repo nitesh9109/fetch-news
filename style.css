@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    color: #333;
+}
+
+.container {
+    max-width: 1180px;
+    margin: 0px auto;
+    padding: 20px;
+}
+
+.article {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    overflow: hidden;
+    margin: 30px 0;
+    align-items: center;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.article:hover {
+    transform: translateY(-5px);
+}
+
+.article img {
+    width: 400px;
+    height: 250px;
+    object-fit: cover;
+    padding: 20px;
+    border-radius: 40px;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+.title {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.title:hover {
+    text-decoration: underline;
+}
+
+.source {
+    font-size: 20px;
+    color: #888;
+    margin-bottom: 5px;
+}
+
+.summary {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.userInput {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.userInput input {
+    width: 500px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    outline: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.userInput input:hover,
+input:focus {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+    transition: all 300ms ease-in;
+}
+
+/* css loader */
+
+.loader {
+    margin: 100px auto;
+    border: 10px solid #EAF0F6;
+    border-radius: 50%;
+    border-top: 10px solid #FF7A59;
+    width: 100px;
+    height: 100px;
+    animation: spinner 1s linear infinite;
+    display: none;
+}
+
+@keyframes spinner {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+/* responsive  */
+
+@media (max-width: 768px) {
+    .article {
+        flex-direction: column;
+    }
+
+    .article img {
+        max-width: 100%;
+    }
+
+    .userInput input {
+        width: 90%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+}
